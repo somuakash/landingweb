@@ -1,0 +1,267 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  #header{
+      margin-top: 30px;
+      margin-left: 50px;
+      margin-right: 50px;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  
+  #img1{
+      height: 50px;
+      width: 120px;
+  }
+  
+  #ol1{
+      margin: auto;
+  }
+  
+  ul{
+      display: flex;
+      justify-content: space-between;
+      width: 350px;
+  }
+  
+  li{
+      list-style: none;
+      font-size: 15px;
+      font-family: sans-serif;
+      font-style: revert;
+      font-weight: 600;
+  }
+  
+  a{
+      text-decoration: none;
+      align-items: center;
+      color: dimgrey;
+  }
+  
+  #btn{
+      margin-block: auto;
+  }
+  
+  #button1{
+      /* margin-right: 50px; */
+      border: 10px;
+      border-top: 10px;
+      border-radius: 15px;
+      height: 50px;
+      margin-right: 50px
+      color: #8071D0;
+      width: 110px;
+      font: menu;
+      font-weight: 700;
+      font-family: revert;
+      background-color:#FFD8D8;
+  }
+  
+  
+  #div0{
+      margin-left: 30px;
+  }
+  
+  li:hover{
+     
+      color: blue;
+      border-bottom: 2px solid blue;
+      text-decoration: underline; 
+  
+  }
+  
+  
+  a:hover{
+      color: black;
+  }
+  
+  
+  .section{
+      position: relative;
+  }
+  
+  #div1{
+      width: 40%;
+      position: absolute;
+      left: 5%;
+      margin-top: 50px;
+  }
+  
+  #div2{
+     
+      position: absolute;
+      height: 80%;
+      width: auto;
+      margin-top: 50px;
+      left: 47%;
+  }
+  
+  
+  #image{
+      width:100%;
+      height: 500px;
+      margin-top: 50px;
+  }
+  
+  #sw{
+      font-size: 75px;
+      font-family: sans-serif;
+      font-weight: bold;
+      margin-left: 50px;
+      margin-top: 45px;
+  }
+  
+  #square{
+      height: 10px;
+      width: 10px;
+      background-color: blue;
+  }
+  
+  #dot{
+      color: darkblue;
+      height: 15px;
+      width: 15px;
+      margin-left: -25px;
+      /* background-color: blue; */
+  }
+  
+  #dp{
+  padding-left: 60px;
+  padding-right: 65px;
+  margin-top: 30px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: black;
+  line-height: 25px;
+  }
+  
+  #new{
+      border: 10px;
+      border-top: 10px;
+      border-radius: 15px;
+      height: 50px;
+      margin-left: 60px;
+      width: 140px;
+      color: #ffffff; 
+      margin-top: 40px;
+      background-color: #5243c0;
+  }
+  
+  #na{
+      display: flex;
+  }
+  
+  #da{
+      margin-top: 40px;
+      margin-left: 10px;
+  }
+  
+  .tb1{
+     
+      display: flex;
+      justify-content: space-evenly;
+      width: 400px;
+      margin-top: 5px;
+      border: 1px solid whitesmoke;
+      border-radius: 10px;
+      height: auto;
+      padding: 10px;
+      background: whitesmoke;
+  }
+  
+  .animation{
+      padding: 5px;
+      font: small-caption;
+      font-size: medium;
+      font-weight: 600;
+      width: 125px;
+  }
+  
+  #date{
+      padding: 10px;
+      font: menu;
+      font-weight: 600;
+      color: dimgrey;
+  
+  }
+  
+  #rect{
+      height: 15px;
+      width: 30px;
+      margin: 10px;
+      border-radius: 50px;
+      background-color: #FED7DA;
+  }
+  
+  .tg{
+      height: 60%;
+      /* opacity: 10; */
+      position: relative;
+  }
+  
+  #tg1{
+      margin-left: 30px;
+  }
+  
+  #tb{
+      margin: 50px;
+  
+  }
+  
+  #rect2{
+      height: 15px;
+      width: 30px;
+      margin: 10px;
+      border-radius: 50px;
+      background-color: #FD6534;
+  }
+  
+  #rect3{
+      height: 15px;
+      width: 30px;
+      margin: 10px;
+      border-radius: 50px;
+      background-color: #9ED095;
+  }
+  
+  #rect4{
+      height: 15px;
+      width: 30px;
+      margin: 10px;
+      border-radius: 50px;
+      background-color: #FFE4A0;
+  }
+  
+  .tb1:hover{
+      background-color: white;
+  }
+  
+  
+  .tt{
+      position: absolute;
+      right: 30px;
+      opacity: 0;
+      height: 30px;
+      left: 70px;
+  }
+  
+  .tb1:hover .ta{
+      opacity: 0;
+  }
+  
+  .tb1:hover .tt{
+      opacity: 1;
+      transform-style: preserve-3d;
+      transition: all linear 0.7
+      ;
+  }
+  
+  
+  .tg{
+      height: 60%;
+  }
+  
